@@ -1,0 +1,37 @@
+.container {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.option{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    /* align-items: flex-end; */
+}
+.recorder {
+    width: auto;
+    
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(to right, #fd69b3 0%, #98a7eb 50%, #7ddfec 100%);
+    cursor: pointer;
+}
+.tips {
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    width: max-content;
+    font-size: 12px;
+    color: #666666;
+}
+.result {
+ min-width: 300px;
+ padding: 2px;
+ border: 1px solid #c2bfbf;
+ border-radius: 5px;
+}
